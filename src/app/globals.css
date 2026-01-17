@@ -5,13 +5,11 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  /* Радіуси */
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 
-  /* Мапінг кольорів на змінні */
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
   --color-card: hsl(var(--card));
